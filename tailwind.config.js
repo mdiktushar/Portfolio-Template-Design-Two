@@ -4,9 +4,8 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("flowbite/plugin")],
-  content: [
-    // ...
-    "node_modules/flowbite-react/lib/esm/**/*.js",
-  ],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 };
