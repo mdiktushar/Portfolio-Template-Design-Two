@@ -13,7 +13,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: `/`,
-        element: <Home />
+        element: <Home />,
+        // loader: async () => await fetch('/data/banner.json'),
       }
     ]
   }
