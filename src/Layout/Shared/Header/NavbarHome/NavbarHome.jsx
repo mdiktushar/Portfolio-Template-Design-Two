@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const NavbarHome = () => {
   return (
     <header id="menu">
       <div className="navbar navbar-default navbar-fixed-top">
@@ -86,4 +86,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarHome;
