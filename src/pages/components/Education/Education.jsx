@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+import twoBW from "../../../assets/img/two_bw.png";
 
 const Education = () => {
-    return (
-        <section id="service">
+  return (
+    <section id="service">
       <div class="container">
         <div class="col-md-8 col-md-offset-2">
           <div class="heading">
@@ -12,101 +13,62 @@ const Education = () => {
             <div class="line"></div>
             <p>
               <span>
-                <strong>L</strong>
+                <strong>A</strong>
               </span>
-              orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad
-              minim veniam
+              cademic Journey & Qualifications
             </p>
           </div>
         </div>
         <div class="experience">
           <div class="col-sm-6 col-xs-12">
             <div
-              class="our-skills wow fadeInLeft"
+              class="single-skill wow fadeInLeft"
               data-wow-duration="1000ms"
-              data-wow-delay="300ms"
+              data-wow-delay="600ms"
             >
-              <div
-                class="single-skill wow fadeInLeft"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
+              <h3
+                class="lead"
+                style={{
+                  marginBottom: `none`,
+                  borderBottom: "none",
+                  paddingBottom: `none`,
+                }}
               >
-                <p class="lead">User Experiances</p>
-                <div class="progress">
-                  <div
-                    class="progress-bar six-sec-ease-in-out"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="90"
-                    style={{width: `95%`}}
-                  >
-                    {" "}
-                    95%{" "}
-                  </div>
-                </div>
-              </div>
-              <div
-                class="single-skill wow fadeInLeft"
-                data-wow-duration="1000ms"
-                data-wow-delay="400ms"
+                Chittagong University of Engineering and Technology:{" "}
+                <span>CUET</span>
+              </h3>
+              <p style={{ textAlign: `left` }}>
+                Master of Science (M.Sc.) (Part-Time),
+                <br />
+                Computer Science and Engineering (CSE),
+                <br /> Sep 2022 - Present
+              </p>
+            </div>
+
+            <div
+              class="single-skill wow fadeInLeft"
+              data-wow-duration="1000ms"
+              data-wow-delay="600ms"
+            >
+              <h3
+                class="lead"
+                style={{
+                  marginBottom: `none`,
+                  borderBottom: "none",
+                  paddingBottom: `none`,
+                }}
               >
-                <p class="lead">Web Design</p>
-                <div class="progress">
-                  <div
-                    class="progress-bar six-sec-ease-in-out"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="80"
-                    style={{width: `80%`}}
-                  >
-                    {" "}
-                    80%{" "}
-                  </div>
-                </div>
-              </div>
-              <div
-                class="single-skill wow fadeInLeft"
-                data-wow-duration="1000ms"
-                data-wow-delay="500ms"
-              >
-                <p class="lead">Programming</p>
-                <div class="progress">
-                  <div
-                    class="progress-bar progress-bar-primary six-sec-ease-in-out"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="100"
-                    aria-valuemax="60"
-                    style={{width: `60%`}}
-                  >
-                    {" "}
-                    60%{" "}
-                  </div>
-                </div>
-              </div>
-              <div
-                class="single-skill wow fadeInLeft"
-                data-wow-duration="1000ms"
-                data-wow-delay="600ms"
-              >
-                <p class="lead">Fun</p>
-                <div class="progress">
-                  <div
-                    class="progress-bar progress-bar-primary six-sec-ease-in-out"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="100"
-                    aria-valuemax="70"
-                    style={{width: `70%`}}
-                  >
-                    {" "}
-                    70%{" "}
-                  </div>
-                </div>
-              </div>
+                Bangladesh Army International University of Science and
+                Technology:{` `}
+                <span>BAIUST</span>
+              </h3>
+              <p style={{ textAlign: `left` }}>
+                Bachelor of Science (B.Sc.)
+                <br />
+                Computer Science and Engineering (CSE),
+                <br /> Oct 2017 - Nov 2021
+                <br /> CGPA:{` `}<span>3.78</span>
+              </p>
             </div>
           </div>
           <div
@@ -116,7 +78,8 @@ const Education = () => {
           >
             {" "}
             <img
-              src="images/Service/01.png"
+              style={{ width: `350px` }}
+              src={twoBW}
               class="img-responsive"
               alt=""
             />{" "}
@@ -124,7 +87,7 @@ const Education = () => {
         </div>
       </div>
     </section>
-    );
+  );
 };
 
 export default Education;
