@@ -1,142 +1,182 @@
 import React from "react";
+import laravel from "../../../assets/img/skills/laravel.png";
+import react from "../../../assets/img/skills/react.png";
+import js from "../../../assets/img/skills/js.png";
+import php from "../../../assets/img/skills/php.png";
+import mongodb from "../../../assets/img/skills/mongodb.png";
+import sql from "../../../assets/img/skills/sql.png";
 
 const Skills = () => {
   return (
     <section id="service">
-      <div class="container">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="heading">
+      <div className="container">
+        <div className="col-md-8 col-md-offset-2">
+          <div className="heading">
             <h2>
-              OUR SERVI<span>CE</span>
+              Ski
+              <span>lls</span>
             </h2>
-            <div class="line"></div>
+            <div className="line"></div>
             <p>
               <span>
-                <strong>L</strong>
+                <strong>D</strong>
               </span>
-              orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad
-              minim veniam
+              ive into my skill set – a curated collection of expertise designed
+              to bring your projects to new heights.
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="features-sec">
+        <div className="row">
+          <div className="features-sec">
             <div
-              class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              style={{ paddingRight: "40px" }}
               data-wow-duration="300ms"
               data-wow-delay="0ms"
             >
-              <div class="media service-box">
-                <div class="pull-left">
+              <div className="media service-box">
+                <div className="pull-left">
                   {" "}
-                  <i class="fa fa-line-chart"></i>{" "}
+                  <img
+                    style={{ width: "50px", height: "50px" }}
+                    src={laravel}
+                    alt=""
+                  />{" "}
                 </div>
-                <div class="media-body">
-                  <h5 class="media-heading">UX Design</h5>
+                <div className="media-body">
+                  <h5 className="media-heading">Laravel</h5>
                   <p>
-                    Backed by some of the biggest names in the industry, Firefox
-                    OS is an open platform that fosters greater
+                    A PHP web application framework known for its elegant syntax
+                    and robust features, facilitating rapid development of web
+                    applications.
                   </p>
                 </div>
               </div>
             </div>
             {/* <!--/.col-md-4--> */}
             <div
-              class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              style={{ paddingRight: "40px" }}
               data-wow-duration="300ms"
               data-wow-delay="100ms"
             >
-              <div class="media service-box">
-                <div class="pull-left">
+              <div className="media service-box">
+                <div className="pull-left">
                   {" "}
-                  <i class="fa fa-cubes"></i>{" "}
+                  <img
+                    style={{ width: "50px", height: "50px" }}
+                    src={react}
+                    alt=""
+                  />{" "}
                 </div>
-                <div class="media-body">
-                  <h5 class="media-heading">UI Design</h5>
+                <div className="media-body">
+                  <h5 className="media-heading">React</h5>
                   <p>
-                    Backed by some of the biggest names in the industry, Firefox
-                    OS is an open platform that fosters greater
+                    A JavaScript library for building user interfaces, developed
+                    by Facebook. It allows developers to create interactive UI
+                    components for web and mobile applications.
                   </p>
                 </div>
               </div>
             </div>
             {/* <!--/.col-md-4--> */}
             <div
-              class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              style={{ paddingRight: "40px" }}
               data-wow-duration="300ms"
-              data-wow-delay="200ms"
+              data-wow-delay="0ms"
             >
-              <div class="media service-box">
-                <div class="pull-left">
+              <div className="media service-box">
+                <div className="pull-left">
                   {" "}
-                  <i class="fa fa-pie-chart"></i>{" "}
+                  <img
+                    style={{ width: "50px", height: "50px" }}
+                    src={php}
+                    alt=""
+                  />{" "}
                 </div>
-                <div class="media-body">
-                  <h5 class="media-heading">Marketing</h5>
+                <div className="media-body">
+                  <h5 className="media-heading">PHP</h5>
                   <p>
-                    Backed by some of the biggest names in the industry, Firefox
-                    OS is an open platform that fosters greater
+                    A server-side scripting language commonly used for web
+                    development. It is widely known for its simplicity and
+                    ability to embed within HTML.
                   </p>
                 </div>
               </div>
             </div>
             {/* <!--/.col-md-4--> */}
             <div
-              class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              style={{ paddingRight: "40px" }}
               data-wow-duration="300ms"
               data-wow-delay="300ms"
             >
-              <div class="media service-box">
-                <div class="pull-left">
+              <div className="media service-box">
+                <div className="pull-left">
                   {" "}
-                  <i class="fa fa-bar-chart"></i>{" "}
+                  <img
+                    style={{ width: "50px", height: "50px" }}
+                    src={js}
+                    alt=""
+                  />{" "}
                 </div>
-                <div class="media-body">
-                  <h5 class="media-heading">SEO Services</h5>
+                <div className="media-body">
+                  <h5 className="media-heading">JavaScript</h5>
                   <p>
-                    Backed by some of the biggest names in the industry, Firefox
-                    OS is an open platform that fosters greater
+                    A programming language primarily used for web development to
+                    create interactive and dynamic content.
                   </p>
                 </div>
               </div>
             </div>
             {/* <!--/.col-md-4--> */}
             <div
-              class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              style={{ paddingRight: "40px" }}
               data-wow-duration="300ms"
               data-wow-delay="400ms"
             >
-              <div class="media service-box">
-                <div class="pull-left">
+              <div className="media service-box">
+                <div className="pull-left">
                   {" "}
-                  <i class="fa fa-language"></i>{" "}
+                  <img
+                    style={{ width: "50px", height: "50px" }}
+                    src={sql}
+                    alt=""
+                  />{" "}
                 </div>
-                <div class="media-body">
-                  <h5 class="media-heading">Android App</h5>
+                <div className="media-body">
+                  <h5 className="media-heading">SQL</h5>
                   <p>
-                    Backed by some of the biggest names in the industry, Firefox
-                    OS is an open platform that fosters greater
+                    Structured query language (SQL) is a programming language
+                    for storing and processing information in a relational
+                    database.
                   </p>
                 </div>
               </div>
             </div>
             {/* <!--/.col-md-4--> */}
             <div
-              class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              style={{ paddingRight: "40px" }}
               data-wow-duration="300ms"
               data-wow-delay="500ms"
             >
-              <div class="media service-box">
-                <div class="pull-left">
+              <div className="media service-box">
+                <div className="pull-left">
                   {" "}
-                  <i class="fa fa-bullseye"></i>{" "}
+                  <img
+                    style={{ width: "50px", height: "50px" }}
+                    src={mongodb}
+                    alt=""
+                  />{" "}
                 </div>
-                <div class="media-body">
-                  <h5 class="media-heading">Clean Code</h5>
+                <div className="media-body">
+                  <h5 className="media-heading">MongoDB</h5>
                   <p>
-                    Backed by some of the biggest names in the industry, Firefox
-                    OS is an open platform that fosters greater
+                    A NoSQL database using JSON-like documents, with optional
+                    schemas, source-available and cross-platform.
                   </p>
                 </div>
               </div>

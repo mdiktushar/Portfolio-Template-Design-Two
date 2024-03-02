@@ -453,8 +453,8 @@ ul.nav li.active a:before {
 .media.service-box .pull-left {
 	margin-right: 20px;
 }
-.media.service-box .pull-left > i {
-	font-size: 24px;
+.media.service-box .pull-left > img {
+	/* font-size: 24px;
 	height: 64px;
 	line-height: 64px;
 	text-align: center;
@@ -463,10 +463,15 @@ ul.nav li.active a:before {
 	color: #e73131;
 	border:1px solid #d7d7d7;
 	transition: background-color 400ms, background-color 400ms;
-	position: relative;
+	position: relative; */
+
+	object-fit: fill;
+	padding: 5px;
+	border: 1px solid #b9afaf;
+	border-radius: 10%;
 }
-.media.service-box:hover .pull-left > i {
-	background:#e73131;
+.media.service-box:hover .pull-left > img {
+	background:#c7f6fc;
 	color:#fff;
 	transform:rotateY(360deg);
 	-moz-transform:rotate(360deg);
