@@ -2,7 +2,6 @@ import React from "react";
 import Skill from "./Skill/Skill";
 
 const Skills = ({ skills }) => {
-  console.log(skills);
   return (
     <section id="service">
       <div className="container">
