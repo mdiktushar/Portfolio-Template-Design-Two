@@ -1,30 +1,65 @@
 {
-    "banner":[
-        {
-          "heading": "Building Tomorrow's Software.",
-          "subheading": "Architecting Digital Solutions.",
-          "message": "Discover My Digital Toolbox! With a passion for problem-solving, I engineer robust software solutions that stand the test of time in an ever-evolving digital landscape.",
-          "image": "/img/Banner6.jpeg"
-        },
-        {
-          "heading": "Crafting Code.",
-          "subheading": "Elevating Digital Experiences.",
-          "message": "Welcome to My Digital Haven! Explore how I craft immersive digital experiences, blending creativity with code to shape tomorrow's online landscape.",
-          "image": "/img/Banner4.jpeg"
-          
-        },
-        {
-          "heading": "Code. Create. Innovate.",
-          "subheading": "Passion Fuels Innovation.",
-          "message": "Step into My Coding Realm! Here, innovation thrives as I weave lines of code into solutions that push boundaries and redefine possibilities.",
-          "image": "/img/Banner2.jpeg"
-        },
-        {
-          "heading": "Building Tomorrow's Software.",
-          "subheading": "Architecting Digital Solutions.",
-          "message": "Discover My Digital Toolbox! With a passion for problem-solving, I engineer robust software solutions that stand the test of time in an ever-evolving digital landscape.",
-          "image": "/img/Banner6.jpeg"
-        }
-      ]
-      
+  "banner": [
+    {
+      "heading": "Building Tomorrow's Software.",
+      "subheading": "Architecting Digital Solutions.",
+      "message": "Discover My Digital Toolbox! With a passion for problem-solving, I engineer robust software solutions that stand the test of time in an ever-evolving digital landscape.",
+      "image": "/img/Banner6.jpeg"
+    },
+    {
+      "heading": "Crafting Code.",
+      "subheading": "Elevating Digital Experiences.",
+      "message": "Welcome to My Digital Haven! Explore how I craft immersive digital experiences, blending creativity with code to shape tomorrow's online landscape.",
+      "image": "/img/Banner4.jpeg"
+    },
+    {
+      "heading": "Code. Create. Innovate.",
+      "subheading": "Passion Fuels Innovation.",
+      "message": "Step into My Coding Realm! Here, innovation thrives as I weave lines of code into solutions that push boundaries and redefine possibilities.",
+      "image": "/img/Banner2.jpeg"
+    },
+    {
+      "heading": "Building Tomorrow's Software.",
+      "subheading": "Architecting Digital Solutions.",
+      "message": "Discover My Digital Toolbox! With a passion for problem-solving, I engineer robust software solutions that stand the test of time in an ever-evolving digital landscape.",
+      "image": "/img/Banner6.jpeg"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Laravel",
+      "details": "A PHP web application framework known for its elegant syntax and robust features, facilitating rapid development of web applications.",
+      "image": "/img/skills/laravel.png"
+    },
+
+    {
+      "name": "React",
+      "details": "A PHP web application framework known for its elegant syntax and robust features, facilitating rapid development of web applications.",
+      "image": "/img/skills/react.png"
+    },
+
+    {
+      "name": "PHP",
+      "details": "A PHP web application framework known for its elegant syntax and robust features, facilitating rapid development of web applications.",
+      "image": "/img/skills/php.png"
+    },
+
+    {
+      "name": "JavaScript",
+      "details": "A PHP web application framework known for its elegant syntax and robust features, facilitating rapid development of web applications.",
+      "image": "/img/skills/js.png"
+    },
+
+    {
+      "name": "SQL",
+      "details": "A PHP web application framework known for its elegant syntax and robust features, facilitating rapid development of web applications.",
+      "image": "/img/skills/sql.png"
+    },
+
+    {
+      "name": "Mongodb",
+      "details": "A PHP web application framework known for its elegant syntax and robust features, facilitating rapid development of web applications.",
+      "image": "/img/skills/mongodb.png"
+    }
+  ]
 }

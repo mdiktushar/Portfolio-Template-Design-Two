@@ -5,13 +5,13 @@ const Expriance = () => {
   return (
     <section id="expriance">
       <div id="service">
-        <div class="container">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="heading">
+        <div className="container">
+          <div className="col-md-8 col-md-offset-2">
+            <div className="heading">
               <h2>
                 EXPRI<span>ANCE</span>
               </h2>
-              <div class="line"></div>
+              <div className="line"></div>
               <p>
                 <span>
                   <strong>P</strong>
@@ -20,16 +20,16 @@ const Expriance = () => {
               </p>
             </div>
           </div>
-          <div class="experience">
-            <div class="col-sm-6 col-xs-12">
+          <div className="experience">
+            <div className="col-sm-6 col-xs-12">
               {/* Postgraduate Student Researcher */}
               <div
-                class="single-skill wow fadeInLeft"
+                className="single-skill wow fadeInLeft"
                 data-wow-duration="1000ms"
                 data-wow-delay="600ms"
               >
                 <h3
-                  class="lead"
+                  className="lead"
                   style={{
                     marginBottom: `none`,
                     borderBottom: "none",
@@ -52,12 +52,12 @@ const Expriance = () => {
               </div>
               {/* Undergraduate Student Researcher */}
               <div
-                class="single-skill wow fadeInLeft"
+                className="single-skill wow fadeInLeft"
                 data-wow-duration="1000ms"
                 data-wow-delay="600ms"
               >
                 <h3
-                  class="lead"
+                  className="lead"
                   style={{
                     marginBottom: `none`,
                     borderBottom: "none",
@@ -82,12 +82,12 @@ const Expriance = () => {
               </div>
               {/* OCPL */}
               <div
-                class="single-skill wow fadeInLeft"
+                className="single-skill wow fadeInLeft"
                 data-wow-duration="1000ms"
                 data-wow-delay="600ms"
               >
                 <h3
-                  class="lead"
+                  className="lead"
                   style={{
                     marginBottom: `none`,
                     borderBottom: "none",
@@ -109,7 +109,7 @@ const Expriance = () => {
               </div>
             </div>
             <div
-              class="col-sm-6  wow fadeInUp"
+              className="col-sm-6  wow fadeInUp"
               data-wow-duration="1000ms"
               data-wow-delay="600ms"
             >
@@ -117,7 +117,7 @@ const Expriance = () => {
               <img
                 style={{ width: `500px` }}
                 src={profesional}
-                class="img-responsive"
+                className="img-responsive"
                 alt=""
               />{" "}
             </div>

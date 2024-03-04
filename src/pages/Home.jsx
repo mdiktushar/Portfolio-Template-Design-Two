@@ -17,7 +17,7 @@ const Home = () => {
       <Education />
       <Download />
       <Expriance />
-      <Skills />
+      <Skills skills={data.skills}/>
     </>
   );
 };

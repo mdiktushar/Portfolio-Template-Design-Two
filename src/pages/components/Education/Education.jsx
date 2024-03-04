@@ -5,13 +5,13 @@ const Education = () => {
   return (
     <section id="education">
       <div id="service">
-        <div class="container">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="heading">
+        <div className="container">
+          <div className="col-md-8 col-md-offset-2">
+            <div className="heading">
               <h2>
                 EDUCA<span>TION</span>
               </h2>
-              <div class="line"></div>
+              <div className="line"></div>
               <p>
                 <span>
                   <strong>A</strong>
@@ -20,15 +20,15 @@ const Education = () => {
               </p>
             </div>
           </div>
-          <div class="experience">
-            <div class="col-sm-6 col-xs-12">
+          <div className="experience">
+            <div className="col-sm-6 col-xs-12">
               <div
-                class="single-skill wow fadeInLeft"
+                className="single-skill wow fadeInLeft"
                 data-wow-duration="1000ms"
                 data-wow-delay="600ms"
               >
                 <h3
-                  class="lead"
+                  className="lead"
                   style={{
                     marginBottom: `none`,
                     borderBottom: "none",
@@ -47,12 +47,12 @@ const Education = () => {
               </div>
 
               <div
-                class="single-skill wow fadeInLeft"
+                className="single-skill wow fadeInLeft"
                 data-wow-duration="1000ms"
                 data-wow-delay="600ms"
               >
                 <h3
-                  class="lead"
+                  className="lead"
                   style={{
                     marginBottom: `none`,
                     borderBottom: "none",
@@ -74,7 +74,7 @@ const Education = () => {
               </div>
             </div>
             <div
-              class="col-sm-6  wow fadeInUp"
+              className="col-sm-6  wow fadeInUp"
               data-wow-duration="1000ms"
               data-wow-delay="600ms"
             >
@@ -82,7 +82,7 @@ const Education = () => {
               <img
                 style={{ width: `350px` }}
                 src={twoBW}
-                class="img-responsive"
+                className="img-responsive"
                 alt=""
               />{" "}
             </div>
