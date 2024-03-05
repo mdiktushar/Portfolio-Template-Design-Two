@@ -7,6 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
 import Expriance from "./components/Expriance/Expriance";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Contact from "./components/Contact/Contact";
 
 const Home = () => {
   const data = useLoaderData();
@@ -18,8 +19,9 @@ const Home = () => {
       <Education />
       <Download />
       <Expriance />
-      <Skills skills={data.skills}/>
+      <Skills skills={data.skills} />
       <Testimonials />
+      <Contact />
     </>
   );
 };
