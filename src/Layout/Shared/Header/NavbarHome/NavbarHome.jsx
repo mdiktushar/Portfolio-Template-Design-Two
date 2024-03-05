@@ -22,7 +22,7 @@ const NavbarHome = () => {
                 <span className="icon-bar"></span>{" "}
               </button>
               <a className="navbar-brand" href="#menu">
-                <img src="images/Logo/01.png" alt="" />
+                Md. Imrul Kayes
               </a>{" "}
             </div>
             {/* Collect the nav links, forms, and other content for toggling */}
