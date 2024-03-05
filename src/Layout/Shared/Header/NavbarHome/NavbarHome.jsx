@@ -17,7 +17,8 @@ const NavbarHome = () => {
               >
                 {" "}
                 <span className="sr-only">Toggle navigation</span>{" "}
-                <span className="icon-bar"></span> <span className="icon-bar"></span>{" "}
+                <span className="icon-bar"></span>{" "}
+                <span className="icon-bar"></span>{" "}
                 <span className="icon-bar"></span>{" "}
               </button>
               <a className="navbar-brand" href="#menu">
@@ -41,33 +42,23 @@ const NavbarHome = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="scroll" href="#service">
-                    Service
+                  <a className="scroll" href="#education">
+                    Education
                   </a>
                 </li>
                 <li>
-                  <a className="scroll" href="#features">
-                    Features
+                  <a className="scroll" href="#expriance">
+                    Expriance
                   </a>
                 </li>
                 <li>
-                  <a className="scroll" href="#portfolio">
-                    Portfolio
+                  <a className="scroll" href="#skills">
+                    Skills
                   </a>
                 </li>
                 <li>
-                  <a className="scroll" href="#pricing">
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a className="scroll" href="#team">
-                    Team
-                  </a>
-                </li>
-                <li>
-                  <a className="scroll" href="#blog">
-                    Blog
+                  <a className="scroll" href="#download">
+                    Download
                   </a>
                 </li>
                 <li>

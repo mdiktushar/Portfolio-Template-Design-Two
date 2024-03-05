@@ -2,7 +2,7 @@ import React from "react";
 
 const Download = () => {
   return (
-    <section className="bg-sec">
+    <section id="download" className="bg-sec">
       <div className="container">
         <div className="col-md-10 col-sm-10 col-xs-8">
           <h3>Unlock My Professional Story: Grab Your Copy of My Curriculum Vitae</h3>

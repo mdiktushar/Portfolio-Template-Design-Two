@@ -3,7 +3,7 @@ import Skill from "./Skill/Skill";
 
 const Skills = ({ skills }) => {
   return (
-    <section id="service">
+    <section id="skills">
       <div className="container">
         <div className="col-md-8 col-md-offset-2">
           <div className="heading">
